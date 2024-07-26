@@ -1,0 +1,331 @@
+*{
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0;
+   margin: 0;
+}
+
+nav {
+   width: 100%;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   background-color: #12372A;
+}
+
+nav h1{
+   font-size: 30px;
+   text-align: center;
+   padding-top: 30px;
+   padding-right: 500px;
+   color: white;
+}
+
+nav a i {
+   font-size: 30px;
+   color: white;
+   align-content: center;
+   padding-left: 50px;
+   padding-top: 30px;
+}
+
+.gambar {
+   width: 100%;
+}
+
+.gambar img {
+   width: 100%;
+   height: 300px;
+}
+
+.isi-awal {
+   display: flex;
+   padding: 15px;
+   /* background-color: #E0A75E; */
+}
+
+.how {
+   width: 30%;
+   margin: 15px;
+}
+
+.mision {
+   width: 40%;
+   margin: 15px;
+}
+
+.cover {
+   width: 30%;
+   margin: 15px;
+}
+
+.bagian-dua {
+   width: 100%;
+   display: flex;
+   margin: 15px;
+}
+
+.page1 {
+   width: 50%;
+}
+
+.page2 {
+   width: 50%;
+}
+
+.kecerdasan {
+   /* color: white; */
+   margin: 15px;
+}
+
+.kecerdasan figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.kecerdasan figcaption p {
+   align-content: center;
+}
+
+.kecerdasan figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Internet {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Internet figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Internet figcaption p {
+   align-content: center;
+}
+
+.Internet figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.lima {
+   /* color: white; */
+   margin: 15px;
+}
+
+.lima figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.lima figcaption p {
+   align-content: center;
+}
+
+.lima figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Blockchain {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Blockchain figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Blockchain figcaption p {
+   align-content: center;
+}
+
+.Blockchain figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Realitas {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Realitas figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Realitas figcaption p {
+   align-content: center;
+}
+
+.Realitas figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Realitas figcaption p {
+   align-content: center;
+}
+
+.Realitas figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Komputasi {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Komputasi figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Komputasi figcaption p {
+   align-content: center;
+}
+
+.Komputasi figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Teknologi {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Teknologi figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Teknologi figcaption p {
+   align-content: center;
+}
+
+.Teknologi figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Kendaraan {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Kendaraan figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Kendaraan figcaption p {
+   align-content: center;
+}
+
+.Kendaraan figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Energi {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Energi figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Energi figcaption p {
+   align-content: center;
+}
+
+.Energi figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Robotika {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Robotika figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Robotika figcaption p {
+   align-content: center;
+}
+
+.Robotika figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.bagian-penutup {
+   width: 100%;
+   display: flex;
+}
+
+.vision {
+   width: 50%;
+   margin: 20px;
+}
+
+.join {
+   width: 50%;
+   margin: 20px;
+}
+
+.vision h4 {
+   margin-bottom: 10px;
+}
+
+.join h4 {
+   margin-bottom: 10px;
+}
+
+span {
+   color: blue;
+}
+
+.hub {
+   width: 100%;
+   padding-bottom: 30px;
+   background-color: #436850;
+}
+
+.hub h4 {
+   text-align: center;
+   padding-top: 40px;
+   padding-bottom: 10px;
+}
+
+.hub p {
+   text-align: center;
+}
+
+.hub div p {
+   padding-top: 20px;
+}
+

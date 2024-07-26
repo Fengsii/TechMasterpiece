@@ -1,0 +1,269 @@
+*{
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0;
+   margin: 0;
+}
+
+nav {
+   width: 100%;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   background-color: #040D12;
+}
+
+nav h1{
+   font-size: 30px;
+   text-align: center;
+   padding-top: 30px;
+   padding-right: 500px;
+   color: white;
+}
+
+nav a i {
+   font-size: 30px;
+   color: white;
+   align-content: center;
+   padding-left: 50px;
+   padding-top: 30px;
+}
+
+.tantangan {
+   width: 40%;
+   /* padding-bottom: 80px; */
+   padding-left: 60px;
+   padding-top: 40px;
+   border: 1px solid black;
+}
+
+.page2 {
+   width: 40%;
+   /* padding-bottom: 80px; */
+   padding-left: 60px;
+   padding-top: 40px;
+   border: 1px solid black;
+}
+
+.gambar {
+   width: 20%;
+   padding-top: 40px;
+}
+
+.isi {
+   width: 100%;
+   display: flex;
+   background-color: #183D3D;
+}
+
+.page1 {
+   width: 80%;
+   display: flex;
+   margin-left: 100;
+   align-items: center;
+}
+
+.keamanan {
+   /* color: white; */
+   margin: 15px;
+}
+
+.keamanan figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.keamanan figcaption p {
+   align-content: center;
+}
+
+.keamanan figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Privasi {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Privasi figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Privasi figcaption p {
+   align-content: center;
+}
+
+.Privasi figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Kesenjangan {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Kesenjangan figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Kesenjangan figcaption p {
+   align-content: center;
+}
+
+.Kesenjangan figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Etika {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Etika figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Etika figcaption p {
+   align-content: center;
+}
+
+.Etika figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Lingkungan {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Lingkungan figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Lingkungan figcaption p {
+   align-content: center;
+}
+
+.Lingkungan figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Peningkatan {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Peningkatan figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Peningkatan figcaption p {
+   align-content: center;
+}
+
+.Peningkatan figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Perbaikan {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Perbaikan figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Perbaikan figcaption p {
+   align-content: center;
+}
+
+.Perbaikan figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Sosial {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Sosial figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Sosial figcaption p {
+   align-content: center;
+}
+
+.Sosial figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Disrupsi {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Disrupsi figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Disrupsi figcaption p {
+   align-content: center;
+}
+
+.Disrupsi figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.Akses {
+   /* color: white; */
+   margin: 15px;
+}
+
+.Akses figcaption {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.Akses figcaption p {
+   align-content: center;
+}
+
+.Akses figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.gambar img {
+   width: 50%;
+   margin: 20px;
+   /* float: right; */
+}

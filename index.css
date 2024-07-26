@@ -1,0 +1,526 @@
+*{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   background-color: black;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: red;
+}
+nav .Brand {
+   justify-content: center;
+   align-content: center;
+   margin: 40px;
+}
+
+nav .Brand h1 {
+   font-size: 25px;
+}
+
+nav .menu {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 40px ;
+   padding-right: 70px;
+}
+
+li {
+   height: 30px;
+   width: 110px;
+   text-align: center;
+   padding-top: 10px;
+   border-radius: 50px;
+}
+
+nav .menu li {
+   list-style: none;
+   font-weight: bold;
+}
+
+nav .menu li a {
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+
+nav .menu li:hover {
+   background-color: black;
+   transition: 0.5s;
+}
+
+.bagian-tengah {
+   display: flex;
+   width: 100%;
+   background-color: black;
+}
+
+.bagian-tengah .video {
+   /* border: 2px solid white; */
+   width: 60%;
+}
+
+.bagian-tengah .video video{
+   width: 100%;
+   height: 100%;
+   margin-left: 20px;
+}
+
+.bagian-tengah .berita {
+   /* border: 2px solid white; */
+   width: 40%;
+   background-color: black;
+}
+
+figcaption img {
+   width: 100px;
+} 
+
+figcaption p {
+   color: white;
+}
+
+figcaption {
+   display: flex;
+   gap: 50px;
+   align-items: center;
+}
+
+.gam1 {
+   align-items: center;
+   margin: 40px 5px 10px 30px;
+}
+
+.gam2 {
+   align-items: center;
+   margin: 40px 5px 10px 30px;
+}
+
+.gam3 {
+   align-items: center;
+   margin: 40px 5px 10px 30px;
+}
+
+.gam4 {
+   align-items: center;
+   margin: 40px 5px 10px 30px;
+}
+
+.bagian-penjelasan {
+   width: 100%;
+   display: flex;
+   background-color: black;
+}
+
+.bagian-penjelasan .definisi {
+   width: 30%;
+   margin: 10px 15px;
+   background-color: black;
+}
+
+.bagian-penjelasan .definisi h2{
+   color: white;
+   margin: 15px;
+}
+
+.bagian-penjelasan .definisi figcaption {
+   display: block;
+  
+}
+
+.bagian-penjelasan .definisi figcaption img{
+  width: 85%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.bagian-penjelasan .definisi figcaption p{
+   width: 85%;
+   margin: 10px 15px;
+   /* text-align: justify; */
+   margin-left: 20px; 
+   font-size: 20px;
+ }
+
+.bagian-penjelasan .komponen-utama {
+   width: 30%;
+   background-color: black;
+   margin: 10px 15px;
+}
+
+.bagian-penjelasan .konten-promosi {
+   width: 40%;
+}
+
+.bagian-penjelasan .komponen-utama .bagian h2 {
+   color: white;
+   margin: 15px;
+}
+
+.bagian-penjelasan .komponen-utama .bagian {
+   background-color: black;
+}
+
+.bagian-penjelasan .komponen-utama .bagian .pengetahuan {
+   margin: 15px;
+   /* text-align: justify; */
+}
+
+.bagian-penjelasan .komponen-utama .bagian .pengetahuan h4{
+  color: white;
+}
+
+.bagian-penjelasan .komponen-utama .bagian .alat-mesin {
+   margin: 15px;
+   /* text-align: justify; */
+}
+
+.bagian-penjelasan .komponen-utama .bagian .alat-mesin h4 {
+   color: white;
+}
+
+.bagian-penjelasan .komponen-utama .bagian .sistem-proses {
+   margin: 15px;
+   /* text-align: justify; */
+}
+
+.bagian-penjelasan .komponen-utama .bagian .sistem-proses h4 {
+   color: white;
+}
+
+
+.bagian-penjelasan .konten-promosi {
+   width: 40%;
+   background-color: black;
+   margin: 10px 15px;
+}
+
+.bagian-penjelasan .konten-promosi h2 {
+   color: white;
+   margin: 15px;
+}
+
+.snapon figcaption video {
+   width: 20%;
+   margin: 15px;
+}
+
+.pembuhuh-prostat figcaption video {
+   width: 20%;
+   margin: 15px;
+}
+
+.lutut figcaption video {
+   width: 20%;
+   margin: 15px;
+}
+
+.obat figcaption video {
+   width: 20%;
+   margin: 15px;
+}
+
+.lakukan figcaption video {
+   width: 20%;
+   margin: 15px;
+}
+
+.bagian-jenis {
+   width: 100%;
+   background-color: red;
+}
+
+.bagian-jenis h2{
+   color: black;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.bagian-jenis .items{
+   display: flex;
+   justify-content: space-evenly;
+   margin: 20px;
+}
+
+.items .tik {
+   width: 16%;
+}
+
+.items .tik {
+   display: block;
+}
+
+.items .tik i{
+   font-size: 40px;
+   margin-top: 10px;
+   margin-left: 75px;
+   color: black;
+}
+
+.items .tik p {
+   text-align: center;
+   font-weight: bold;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   color: black;
+}
+
+.items .healty {
+   width: 16%;
+   /* border: 1px solid blue; */
+}
+
+.items .healty i{
+   font-size: 40px;
+   margin-top: 10px;
+   margin-left: 75px;
+   color: black;
+}
+
+.items .healty p {
+   text-align: center;
+   font-weight: bold;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   color: black;
+}
+
+.items .transportasi {
+   width: 16%;
+   /* border: 1px solid blue; */
+}
+
+.items .transportasi i{
+   font-size: 40px;
+   margin-top: 10px;
+   margin-left: 75px;
+   color: black;
+}
+
+.items .transportasi p {
+   text-align: center;
+   font-weight: bold;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   color: black;
+}
+
+.items .energi {
+   width: 16%;
+   /* border: 1px solid blue; */
+}
+
+.items .energi i{
+   font-size: 40px;
+   margin-top: 10px;
+   margin-left: 75px;
+   color: black;
+}
+
+.items .energi p {
+   text-align: center;
+   font-weight: bold;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   color: black;
+}
+
+.items .manufaktur {
+   width: 16%;
+   /* border: 1px solid blue; */
+}
+
+.items .manufaktur i{
+   font-size: 40px;
+   margin-top: 10px;
+   margin-left: 75px;
+   color: black;
+}
+
+.items .manufaktur p {
+   text-align: center;
+   font-weight: bold;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   color: black;
+}
+
+.items .rumah {
+   width: 16%;
+   /* border: 1px solid blue; */
+}
+
+.items .rumah i{
+   font-size: 40px;
+   margin-top: 10px;
+   margin-left: 75px;
+   color: black;
+}
+
+.items .rumah p {
+   text-align: center;
+   font-weight: bold;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   color: black;
+}
+
+.sejarman {
+   display: flex;
+   width: 100%;
+}
+
+.sejarah {
+   width: 50%;
+   /* border: 1px solid white; */
+   margin: 20px;
+}
+
+.sejarah h2 {
+   color: white;
+   margin: 15px;
+   font-size: 20px;
+}
+
+.prasejarah {
+   color: white;
+   margin: 15px;
+}
+
+.prasejarah figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.kuno {
+   color: white;
+   margin: 15px;
+}
+
+.kuno figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.industri {
+   color: white;
+   margin: 15px;
+}
+
+.industri figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.modern {
+   color: white;
+   margin: 15px;
+}
+
+.modern figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.digital {
+   color: white;
+   margin: 15px;
+}
+
+.digital figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.manfaat {
+   width: 50%;
+   /* border: 1px solid white; */
+   margin: 20px;
+}
+
+.manfaat h2 {
+   color: white;
+   margin: 15px;
+   font-size: 20px;
+}
+
+.kualitas {
+   color: white;
+   margin: 15px;
+}
+
+.kualitas figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.produktivitas {
+   color: white;
+   margin: 15px;
+}
+
+.produktivitas figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.akses {
+   color: white;
+   margin: 15px;
+}
+
+.akses figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+.inovasi{
+   color: white;
+   margin: 15px;
+}
+
+.inovasi figcaption img {
+   margin-top: 10px;
+   width: 20%;
+}
+
+footer {
+   width: 100%;
+   height: 160px;
+   background-color: red;
+}
+
+footer .icon-log {
+   display: flex;
+   justify-content: center;
+   padding-top: 40px;
+}
+
+footer .icon-log li a i {
+   font-size: 30px;
+   color: white;
+}
+
+footer .icon-log li{
+   list-style: none;
+}
+
+footer p {
+   color: white;
+   text-align: center;
+   padding-top: 20px;
+   font-weight: bold;
+}
+
